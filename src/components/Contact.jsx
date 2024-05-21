@@ -8,8 +8,10 @@ const Contact = () => {
 
   return (
     <section className='contact'>
-      <h2>I'd Love to hear from you!</h2>
+      <a id='contact'>
+      </a>
       <form>
+        <h2>I'd Love to hear from you!</h2>
         <div className='inputs'>
           <input type='text' placeholder='Name' name='name'></input>
           <input type='text' placeholder='Email' name='email'></input>

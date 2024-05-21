@@ -14,6 +14,7 @@ const TopNavigationBar = () => {
         <a href='#education'>Education</a>
         <a href='#employment'>Employment</a>
         <a href='#portfolio'>Portfolio</a>
+        <a href='#contact'>Contact and Accounts</a>
       </div>
     </nav>
   );

@@ -10,7 +10,9 @@ import TopNavigationBar from './components/TopNavigationBar'
 import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects';
+import Proficiencies from './components/Proficiencies';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -23,8 +25,10 @@ function App() {
         <Intro></Intro>
         <AboutMe></AboutMe>
         <Projects></Projects>
+        <Proficiencies></Proficiencies>
         <Contact></Contact>
       </section>
+      <Footer></Footer>
     </div>
   )
 }
