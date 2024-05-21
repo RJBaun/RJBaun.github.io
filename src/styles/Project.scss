@@ -7,6 +7,8 @@ div {
   width: 500px;
   height: 290px;
 }
+
+
 .box-contents {
   position: absolute;
   top: 0;
@@ -14,7 +16,6 @@ div {
   bottom: 0;
   left: 0;
   background: url(https://source.unsplash.com/300x300/?cat) 50% 50% / cover no-repeat;
-  box-shadow: 0 0 60px rgba(255, 255, 255, .6);
   transition: .5s ease;
 }
 .hover-point {
