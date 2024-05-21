@@ -13,6 +13,7 @@ const TopNavigationBar = () => {
         <a href='#about-me'>About Me</a>
         <a href='#education'>Education</a>
         <a href='#employment'>Employment</a>
+        <a href='#portfolio'>Portfolio</a>
       </div>
     </nav>
   );

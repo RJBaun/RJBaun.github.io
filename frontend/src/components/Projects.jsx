@@ -12,8 +12,11 @@ const Projects = () => {
   
   return (
     <section>
-      <h2>MY PORTFOLIO</h2>
-      <p>Below you can find a selection of my previous projects. Click on an image to learn more and launch the Github repo </p>
+      <a id='portfolio'>
+        <h2>MY PORTFOLIO</h2>
+      </a>
+      <p>Below you can find a selection of my previous projects. Click on an image to learn more 
+        and launch the Github repo.</p>
       <div className='row'>
         <div className='card'>
           <h3>DIVI</h3>
