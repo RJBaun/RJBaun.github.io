@@ -6,7 +6,9 @@ const Proficiencies = () => {
 
   return (
     <section>
-      <h2>Proficiencies</h2>
+      <a id='proficiencies'>
+        <h2>Proficiencies</h2>
+      </a>
       <div className='icons'>
         <div className='row'>
           <i className="fa-brands fa-node"></i>
