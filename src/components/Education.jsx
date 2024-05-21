@@ -13,7 +13,7 @@ const Education = () => {
             <p>Diploma - Web Development</p>
             <p>Lighthouse Labs</p>
           </div>
-          <div className='description'>Lighthouse Labs' Web Development Bootcamp was my first formal introduction to the world of programming. Over 12 weeks I was able to established a strong foundation 
+          <div className='description'>Lighthouse Labs' Web Development Bootcamp was my first formal introduction to the world of programming. Over 12 weeks I was able to establishe a strong foundation 
             in a variety of languages, frameworks and libraries such as Javascript, Node, Ruby on Rails, React, jQuery, HTML, CSS/SCSS, Express, and PostgreSQL among others.
           </div>
         </div>

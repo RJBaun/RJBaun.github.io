@@ -1,0 +1,24 @@
+.icons {
+
+  .row {
+    justify-content: space-evenly;
+    
+    i{
+      font-size: 70px;
+    }
+  }
+}
+
+.prof-blurb {
+  padding: 0.2em 3em;
+}
+
+.prof-list {
+  margin: 0;
+  padding: 0.2em 0em;
+}
+
+.icons .row i:hover {
+  color: aqua;
+  transform: translate(-10px, -10px);
+}
