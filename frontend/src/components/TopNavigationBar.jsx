@@ -11,6 +11,8 @@ const TopNavigationBar = () => {
       </span>
       <div className='links'>
         <a href='#about-me'>About Me</a>
+        <a href='#education'>Education</a>
+        <a href='#employment'>Employment</a>
       </div>
     </nav>
   );

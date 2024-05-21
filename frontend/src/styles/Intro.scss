@@ -3,8 +3,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; // Ensure the .intro element is positioned for absolute children
-  border-bottom: 5px solid gray;
 
   .message {
     display: flex;
@@ -12,7 +10,7 @@
     align-items: center;
     text-align: center;
     color: black;
-    z-index: 1; // Ensure the message stays on top of the shapes
+    z-index: 1;
 
     h1 {
       margin: 0;
@@ -25,82 +23,5 @@
       max-width: 50vw;
       font-family: 'Jaro';
     }
-  }
-
-  .shape {
-    width: 90vw;
-    height: 70vh;
-    border-radius: 100px;
-    mix-blend-mode: screen;
-    position: absolute;
-
-    &#red {
-      background-color: #FF0000;
-      animation: moveRed 10s infinite alternate ease-in-out;
-    }
-
-    &#green {
-      background-color: #00FF00;
-      animation: moveGreen 12s infinite alternate ease-in-out;
-    }
-
-    &#blue {
-      background-color: #0000FF;
-      animation: moveBlue 14s infinite alternate ease-in-out;
-    }
-  }
-}
-
-@keyframes moveRed {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(30px, -30px);
-  }
-  50% {
-    transform: translate(-30px, 30px);
-  }
-  75% {
-    transform: translate(30px, 30px);
-  }
-  100% {
-    transform: translate(-30px, -30px);
-  }
-}
-
-@keyframes moveGreen {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(-40px, 40px);
-  }
-  50% {
-    transform: translate(40px, -40px);
-  }
-  75% {
-    transform: translate(-40px, -40px);
-  }
-  100% {
-    transform: translate(40px, 40px);
-  }
-}
-
-@keyframes moveBlue {
-  0% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(50px, 50px);
-  }
-  50% {
-    transform: translate(-50px, -50px);
-  }
-  75% {
-    transform: translate(50px, -50px);
-  }
-  100% {
-    transform: translate(-50px, 50px);
   }
 }

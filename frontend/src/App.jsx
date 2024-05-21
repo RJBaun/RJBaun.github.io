@@ -9,6 +9,7 @@ import './App.scss'
 import TopNavigationBar from './components/TopNavigationBar'
 import Intro from './components/Intro'
 import AboutMe from './components/AboutMe'
+import Projects from './components/Projects';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <section>
         <Intro></Intro>
         <AboutMe></AboutMe>
+        <Projects></Projects>
       </section>
     </div>
   )

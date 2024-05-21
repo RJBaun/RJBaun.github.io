@@ -7,7 +7,7 @@
   font-family: 'Jaro';
   font-size: x-large;
   width: 100%;
-  border-bottom: 3px solid gray;
+  border-bottom: 3px solid white;
   position: fixed;
   z-index: 900;
 
@@ -21,6 +21,7 @@
     a {
       color: white;
       text-decoration: none;
+      padding-right: 0.6em;
     }
   }
 }
