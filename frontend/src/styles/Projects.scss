@@ -1,0 +1,39 @@
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0em 0em 1em 0em;
+
+  .card {
+    padding: 0em;
+    margin: 0em 1em;
+  }
+}
+
+.divi {
+  background: url(https://github.com/RJBaun/Divi/blob/main/docs/Screenshot%202024-04-24%20at%209.48.48%E2%80%AFAM.png?raw=true) 50% 50% / cover no-repeat;
+}
+
+.jungle {
+  background: url(https://github.com/RJBaun/jungle/raw/master/public/images/Screenshot%202024-04-10%20at%209.50.12%E2%80%AFPM.png?raw=true) 50% 50% / cover no-repeat;
+}
+
+.photolabs {
+  background: url(https://github.com/RJBaun/photolabs/raw/main/docs/Screenshot%202024-03-25%20at%204.10.06%E2%80%AFPM.png?raw=true) 50% 50% / cover no-repeat;
+}
+
+.knowledge-nest {
+  background: url(https://github.com/RJBaun/knowledge-nest/raw/master/docs/Screenshot%202024-03-15%20at%2011.24.54%E2%80%AFAM.png?raw=true) 50% 50% / cover no-repeat;
+}
+
+.tweeter {
+  background: url(https://github.com/RJBaun/tweeter/raw/master/docs/tweeter-home.png?raw=true) 50% 50% / cover no-repeat;
+}
