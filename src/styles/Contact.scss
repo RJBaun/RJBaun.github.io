@@ -8,7 +8,7 @@
   
   h2 {
     z-index: 99;
-    font-size: xx-large;
+    font-size: 40px;
   }
 
   form {
@@ -20,7 +20,7 @@
     .inputs {
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: center;
       margin: 1em 0em;
     }
 
@@ -41,7 +41,7 @@
   }
 
   .shape {
-    height: 850px;
+    height: 900px;
   }
 
   
