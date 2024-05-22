@@ -56,8 +56,9 @@
   .education, .employment {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    height: 700px;
     padding: 0.2em 4em;
     margin-bottom: 1.2em;
     
@@ -74,23 +75,29 @@
       border-radius: 10px;
     }
 
+    a {
+      text-decoration: none;
+      padding: 0em !important;
+    }
+
     .entity {
       display: flex;
       flex-direction: row;
       align-items: center;
       font-size: x-large;
-      margin-bottom: 1em;
-      background-color: lightgray;
+      background-color: white;
       border: 3px solid black;
       padding: 0.3em;
       border-radius: 10px;
       transition: background-color 0.5s ease, transform 0.5s ease, width 0.5s ease;
       
       .details {
+        color: black;
         width: 30vw;
       }
       
       .description {
+        color: black;
         width: 40vw;
       }
     }
@@ -100,5 +107,13 @@
     background-color: #000000;
     transform: translateY(-8px);
     width: 75vw;
+
+    .details {
+      color: white;
+    }
+
+    .description {
+      color: white;
+    }
   }
 }

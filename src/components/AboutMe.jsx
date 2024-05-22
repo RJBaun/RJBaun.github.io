@@ -7,7 +7,7 @@ import '../styles/AboutMe.scss'
 const AboutMe = () => {
   return (
     <div className='about-me'>
-      <a id='about-me'>
+      <div id='about-me'>
         <h2>ABOUT ME</h2>
         <p className='about-me-intro'>
           Prior to taking the leap of faith into the world of programming, I have worked to establish an eclectic list of employment and 
@@ -18,9 +18,11 @@ const AboutMe = () => {
         <p className='about-me-intro'>
           Below you can find a list of my most recent and significant undertakings.
         </p>
-      </a>
-      <div className='about-me-background'>
+      </div>
+      <div id='education' className='about-me-background'>
         <Education />
+      </div>
+      <div id='employment' className='about-me-background'>
         <Employment />
       </div>
     </div>

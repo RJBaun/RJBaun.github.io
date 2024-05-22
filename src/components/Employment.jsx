@@ -4,9 +4,8 @@ const Employment = () => {
 
   return (
     <section className='education'>
-      <a id='employment'>
         <h2 className='education-title'>EMPLOYMENT</h2>
-      </a>
+      <a href='https://www.hubinternational.com/' target='_blank'>
         <div className='entity'>
           <div className='details'>
             <p>2020 - 2024</p>
@@ -18,6 +17,7 @@ const Employment = () => {
           per fiscal year, largely through implementing new processes for existing commercial clients to create a tailored experience and new revenues. 
           </div>
         </div>
+        </a>
         <div className='entity'>
           <div className='details'>
             <p>2019-2023</p>
