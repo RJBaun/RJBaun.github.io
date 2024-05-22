@@ -7,7 +7,7 @@ const TopNavigationBar = () => {
   return (
     <nav className='top-nav'>
       <span>
-        Rylan Baun | Portfolio
+        <a href='#home' className='links'>Rylan Baun | Portfolio</a>
       </span>
       <div className='links'>
         <a href='#about-me'>About Me</a>
