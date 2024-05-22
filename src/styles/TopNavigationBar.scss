@@ -2,9 +2,9 @@
   background-color: black;
   color: white;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
-  font-family: 'Jaro';
+  font-family: "Jaro";
   font-size: x-large;
   width: 100%;
   border-bottom: 3px solid white;
@@ -18,10 +18,9 @@
     padding-right: 0.6em;
   }
 
-
   .links {
     padding-right: 3em;
-    
+
     a {
       color: white;
       text-decoration: none;

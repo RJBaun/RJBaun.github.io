@@ -6,7 +6,8 @@
   align-items: center;
   color: black;
 
-  input[type=text], textarea {
+  input[type="text"],
+  textarea {
     background-color: lightgray;
     border: 2px solid black;
     border-radius: 5px;
@@ -15,7 +16,7 @@
   button {
     background-image: linear-gradient(to right, #0000ff, #00ff00, #ff0000);
   }
-  
+
   h2 {
     z-index: 99;
     font-size: 40px;
@@ -42,7 +43,7 @@
   .links {
     color: black;
     z-index: 99;
-    padding-top: .5em;
+    padding-top: 0.5em;
 
     a {
       padding: 0 0.1em !important;
@@ -57,8 +58,6 @@
   .shape {
     height: 900px;
   }
-
-  
 }
 
 .links i:hover {

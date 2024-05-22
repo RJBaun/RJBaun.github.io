@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import '../styles/Project.scss'
+import "../styles/Project.scss";
 
 const Divi = () => {
-  
   return (
     <div className="demo">
       <div className="box">
@@ -18,7 +17,7 @@ const Divi = () => {
         <div className="box-contents divi"></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Divi;

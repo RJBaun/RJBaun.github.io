@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import '../styles/Project.scss'
+import "../styles/Project.scss";
 
 const Photolabs = () => {
-  
   return (
     <div className="demo">
       <div className="box">
@@ -18,7 +17,7 @@ const Photolabs = () => {
         <div className="box-contents photolabs"></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Photolabs;

@@ -1,14 +1,27 @@
 @keyframes pulse-border {
-  0%, 100% {
-    box-shadow: 40px 80px 30px #0000ff, -60px -30px 25px #00ff00, -20px 40px 15px #ff0000, 20px -40px 15px #ff0000;
+  0%,
+  100% {
+    box-shadow:
+      40px 80px 30px #0000ff,
+      -60px -30px 25px #00ff00,
+      -20px 40px 15px #ff0000,
+      20px -40px 15px #ff0000;
   }
 
   33% {
-    box-shadow: 30px 70px 20px #00ff00, -80px -40px 30px #ff0000, -10px 10px 35px #0000ff, 10px -10px 35px #0000ff;
+    box-shadow:
+      30px 70px 20px #00ff00,
+      -80px -40px 30px #ff0000,
+      -10px 10px 35px #0000ff,
+      10px -10px 35px #0000ff;
   }
-  
+
   66% {
-    box-shadow: 50px 30px 25px #ff0000, -90px -20px 20px #0000ff, -30px 50px 25px #00ff00, 30px -50px 25px #00ff00;
+    box-shadow:
+      50px 30px 25px #ff0000,
+      -90px -20px 20px #0000ff,
+      -30px 50px 25px #00ff00,
+      30px -50px 25px #00ff00;
   }
 }
 
@@ -18,13 +31,13 @@
   color: black;
   align-items: center;
   text-align: center;
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   padding: 1em 4em 0em 4em;
 
   h2 {
     color: #ffffff;
     font-size: 3.5em;
-    font-family: 'Jaro';
+    font-family: "Jaro";
     margin-top: 0;
   }
 
@@ -53,7 +66,8 @@
     }
   }
 
-  .education, .employment {
+  .education,
+  .employment {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -61,12 +75,12 @@
     height: 700px;
     padding: 0.2em 4em;
     margin-bottom: 1.2em;
-    
+
     h2 {
       font-size: 2em;
       color: #000000;
     }
-    
+
     .education-title {
       background-color: #ffffff;
       font-size: 2em;
@@ -89,20 +103,23 @@
       border: 3px solid black;
       padding: 0.3em;
       border-radius: 10px;
-      transition: background-color 0.5s ease, transform 0.5s ease, width 0.5s ease;
-      
+      transition:
+        background-color 0.5s ease,
+        transform 0.5s ease,
+        width 0.5s ease;
+
       .details {
         color: black;
         width: 30vw;
       }
-      
+
       .description {
         color: black;
         width: 40vw;
       }
     }
   }
-  
+
   .entity:hover {
     background-color: #000000;
     transform: translateY(-8px);

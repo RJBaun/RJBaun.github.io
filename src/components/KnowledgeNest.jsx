@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
-import '../styles/Project.scss'
+import "../styles/Project.scss";
 
 const KnowledgeNest = () => {
-  
   return (
     <div className="demo">
       <div className="box">
@@ -18,7 +17,7 @@ const KnowledgeNest = () => {
         <div className="box-contents knowledge-nest"></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default KnowledgeNest;
