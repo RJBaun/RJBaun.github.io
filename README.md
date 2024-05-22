@@ -1,24 +1,13 @@
-# README
+# Rylan Baun | Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## A landing page to display my projects and experience
 
-Things you may want to cover:
+## Dependencies
 
-- Ruby version
+- React v18
+- Material UI v5
+- Vite v5
+- emailjs-com v3
+- Prettier v3
 
-- System dependencies
 
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...

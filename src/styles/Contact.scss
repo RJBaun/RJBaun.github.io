@@ -17,6 +17,10 @@
     background-image: linear-gradient(to right, #0000ff, #00ff00, #ff0000);
   }
 
+  button:hover {
+    cursor: pointer;
+  }
+
   h2 {
     z-index: 99;
     font-size: 40px;
