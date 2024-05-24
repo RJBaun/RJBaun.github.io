@@ -5,7 +5,7 @@ import "../styles/Footer.scss";
 const Footer = () => {
   return (
     <footer>
-      <p>Last updated May 21, 2024</p>
+      <p>Last updated May 24, 2024</p>
       <p>
         Repo can be found at{" "}
         <a href="">https://github.com/RJBaun/RJBaun.github.io</a>
