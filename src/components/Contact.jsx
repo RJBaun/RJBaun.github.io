@@ -33,7 +33,7 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <h2>I'd Love to hear from you!</h2>
         <p>
-          Please be sure to include your contact informationin the message you
+          Please be sure to include your contact information in the message you
           submit.
         </p>
         <div className="inputs">
